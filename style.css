@@ -1,0 +1,296 @@
+* {
+padding: 0px;
+margin: 0px;
+list-style: none;
+border: 0px;
+text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+/* ust kisim baslangici */
+#ustkisim {
+    width: 100%;
+    height: 900px;
+    background-image: url("resim12.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menuler{
+    float: left;
+    height: 100px;
+    width: 100%;
+    background: (0,0,0,0.2);
+    text-align: center;
+    position: fixed;
+
+}
+#menuler li{
+    display: inline;
+}
+#logo{
+    height: 100px;
+    width: 15%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+#logo h1{
+    font: size 50px;
+    color: blue;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#menu {
+    height: 20px;
+    width: 40%;
+    float: left;
+    margin-top: 41px;
+    margin-bottom: 41px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+#menu a:link{
+margin: 0px 17.5px;
+color: white;
+font-weight: bolder;
+font-size: 10px;
+
+}
+#sosyal{
+    height: 15px;
+    width: 20%;
+    float: right;
+    margin-right: 2%;
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+#sosyal a:link{
+    margin: 0px 5px;
+    color:white;
+    font: size 16px;
+}
+#menu a:visited, #sosyal a:visited{
+color:white 
+}
+#menu a:active, #menu a:hover, #sosyal a:hover, #sosyal a:active{
+    color: #97c13f;
+}
+/* MENU BITIS */
+#slogan{
+    text-align: center;
+    padding-top: 30%;
+}
+#slogan h1{
+    font-size: 60px;
+    color: white;
+}
+#slogan span{
+    color: #97c13f;
+}
+#slogan h2{
+    font-size: 35px;
+}
+/* UST KISIM BITIS*/
+
+#ortakisim{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px -10px 120px black;
+}
+#hakkimda {
+    padding:30px 0px;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: #eeeeee;
+    background-image: url(resim5.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: white;
+}
+#hakkimda h1{
+    width: 40%;
+    margin:20px- 30%;
+    font-size: 40px;
+}
+#hakkimda p{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10px;
+
+}
+#hakkimda a:link, #projeler h1, #blog h1{
+    font-size: 20px;
+    padding: 5px;
+    border: dashed 3px black;
+    color: black;
+    
+}
+#hakkimda a:visited, #projeler a:visited, #blog a:visited{
+    color: black;
+
+}
+#hakkimda a:hover, #projeler a:hover, #blog a:hover,#projeler a:active, #blog a:active, #hakkimda a:active{
+    color:#97c13f;
+    border-color: #97c13f;
+}
+#projeler{
+    padding:30px 0px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+#projeler img{
+    width: 100%;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+#projeler img:hover{
+    opacity: 1.0;
+}
+#blog{
+padding: 30px 0px;
+height: auto;
+width: 100%;
+text-align: center;
+background-color: #eeeeee;
+}
+#blog{
+    width: 70%;
+    margin: 10px 15%;
+}
+#blg img{
+    width:85%;
+    border-radius: 15px;
+    margin-left: 2%;
+    margin-right:2%;
+    margin-top: 2%;
+    }
+#blg h1{
+    border-top: 2px solid black;
+
+}
+#blg h3{
+    border-top: 2px solid black;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-left: 5px;
+}
+/* ORTA KISIM BITIS */
+
+/* SON KISIM BASLANGIC*/
+#footer{
+    width: 100%;
+    height: auto;
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#iletisim{
+    padding:30px 0px;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+#iltsm{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+
+}
+#itablo{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: auto;
+}
+#isim, #mail, #konu, #mesaj{
+    width:  250px;
+    height: 40px;
+    border: 2px solid yellowgreen;
+    padding: 0px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0,15);
+}
+#mesaj{
+    height: 150px;
+    padding: 15px;
+}
+#button{
+font-weight: bold;
+font-size: 16px;
+color: #ffffff;
+height: 60px;
+width: 150px;
+background-color: white;
+border-radius: 5px;
+text-align: center;
+}
+#button:hover{
+    background-color: rgba(0,0,0,5);
+    color: white;
+}
+
+/* SON KISIM BITIS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
